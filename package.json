@@ -1,0 +1,25 @@
+{
+  "name": "referenze",
+  "version": "1.0.0",
+  "description": "prima versione del software di gestione delle referenze",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Ennio Picarelli",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "config": "^1.30.0",
+    "express": "^4.16.3",
+    "ibm_db": "^2.4.0",
+    "log4js": "^2.10.0",
+    "moment": "^2.22.2",
+    "npm": "^6.1.0",
+    "pouchdb": "^7.0.0",
+    "pouchdb-find": "^7.0.0",
+    "tslib": "^1.9.3"
+  }
+}

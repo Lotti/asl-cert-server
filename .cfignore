@@ -1,0 +1,25 @@
+# Logs
+/logs
+*.log
+
+# Dependencies
+/node_modules
+
+# Coverage
+/coverage/
+
+# Original source code
+/src/
+
+# VS Code
+.vscode
+!.vscode/tasks.js
+
+# JetBrains IDEs
+/.idea/
+
+# Optional eslint cache
+.eslintcache
+
+# Misc
+.DS_Store

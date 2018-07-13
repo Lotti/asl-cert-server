@@ -1,0 +1,12 @@
+applications:
+- name: asl-cert
+  command: npm start
+  disk_quota: 1G
+  env:
+    NODE_ENV: 'production'
+    NODE_MODULES_CACHE: 'true'
+  instances: 1
+  memory: 256M
+  routes:
+  - route: asl-cert.eu-de.mybluemix.net
+  stack: cflinuxfs2
